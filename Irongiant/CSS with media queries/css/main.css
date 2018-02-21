@@ -1,0 +1,36 @@
+img {
+	max-width: 100%;
+}
+#top {
+	text-align: center;
+	padding: 10px;
+	background-color: lightblue;
+	margin-bottom: 25px;
+}
+#left, #right {
+	width: 100%;
+	padding: 2.5% 0;
+	vertical-align: top;
+}
+#left p {
+	text-align: center;
+	font-size: 0.85rem;
+}
+#left span {
+	font-style: italic;
+}
+footer {
+	height: 150px;
+	margin-top: 25px;
+	background-color: lightblue;
+}
+
+@media (min-width: 520px) {
+	/*HINT: Be sure to refer to the "IronGiantScreenShot_Tablet" image for reference on what should change!*/
+}
+@media (min-width: 768px) {
+	/*HINT: Be sure to refer to the "IronGiantScreenShot_Laptop" image for reference on what should change!*/
+}
+@media (min-width: 1500px) {
+	/*HINT: Be sure to refer to the "IronGiantScreenShot_LargeMonitor" image for reference on what should change!*/
+}

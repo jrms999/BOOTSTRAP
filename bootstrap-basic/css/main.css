@@ -1,0 +1,41 @@
+nav {
+	text-align: center;
+	background-color: tomato;
+	padding: 20px 0;
+}
+nav ul li {
+	display: inline-block;
+	background-color: white;
+	padding: 10px 15px;
+	margin: 5px 10px;
+	transition: 0.5s ease;
+}
+nav ul li a {
+	transition: 0.5s ease;
+}
+nav ul li:hover {
+	transform: scale(1.2);
+	background-color: tomato;
+	border: 2px solid #FFF;
+}
+nav ul li:hover a {
+	color: #FFF;
+	text-decoration: none;
+}
+button {
+	background-color: lightgreen;
+	color: darkgreen;
+	border: none;
+	border-radius: 5px;
+	padding: 15px 25px;
+	margin: 5px;
+	transition: 0.25s ease;
+}
+button:hover {
+	background-color: #7bc97b;
+	color: #FFF;
+}
+div#buttons {
+	text-align: center;
+	padding: 50px 0;
+}
