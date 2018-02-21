@@ -1,0 +1,22 @@
+.box1 {
+  background-color: tomato;
+  color: white;
+  float: left;
+  width: 70%;
+}
+.box1 h1 {
+  padding: 5px;
+}
+
+.box2 {
+  background-color: silver;
+  color: black;
+  float: left;
+  width: 30%;
+}
+.box2 h1 {
+  padding: 5px;
+}
+
+
+
