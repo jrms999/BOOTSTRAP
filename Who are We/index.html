@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Codify Academy">
+		<meta name="description" content="Codify Academy Week 3 Intermediate Project - PSD Website Replication">
+		<link rel="shortcut icon" href="favicon.ico">
+		<title>WHO are WE?</title>
+		<!-- FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Nunito:400|Raleway' rel='stylesheet'>
+		<!-- BOOTSTRAP -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body onload="LoadGmaps()">
+		<nav>
+			<a href="#index">WHO are WE</a>
+			<ul>
+				<li>
+					<a href="#about">ABOUT</a>
+				</li>
+				<li>
+					<a href="#team">TEAM</a>
+				</li>
+				<li>
+					<a href="#contact">CONTACT</a>
+				</li>
+				<li>
+					<a href="#">SIGN IN</a>
+				</li>
+			</ul>
+		</nav>
+		<header>
+			<div>
+				<h1>Our Mission</h1>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			</div>
+		</header>
+		<section id="about">
+			<h1>About</h1>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
+		</section>
+
+		<section id="team">
+			<h1>Team</h1>
+			<div class="wrapper">
+				<div class="team_member">
+					<img src="img/team1.png" alt="john doe's image">
+				</div>
+				<div class="team_member">
+					<img src="img/team2.png" alt="john doe's image">
+				</div>
+				<div class="team_member">
+					<img src="img/team3.png" alt="john doe's image">
+				</div>
+			</div>
+			<a href="#contact">WORK WITH US</a>
+		</section>
+
+		<section id="contact">
+<div class="wrapper">
+			<div id="MyGmaps"></div>
+	
+		</section>
+
+		<footer>
+			<div class="wrapper">
+				<div id="top-footer">
+					<ul>
+						<li>
+							<a href="#about">ABOUT</a>
+						</li>
+						<li>
+							<a href="#team">TEAM</a>
+						</li>
+						<li>
+							<a href="#contact">CONTACT</a>
+						</li>
+						<li>
+							<a href="#">SIGN IN</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="mailto:yourself@email.com">
+								<i class="fa fa-envelope"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://facebook.com">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://twitter.com">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<hr>
+
+				<ul>
+					<li>
+						<a href="">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="">Terms and Conditions</a>
+					</li>
+					<li><a href="">&copy; Company.LLC 2015</a></li>
+				</ul>
+			</div>
+
+		</footer>
+
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<script src="js/main.js"></script>
+
+<!-- codepen - disengaging map auto scroll - note, this is not working as current model?!?!?:
+
+
+
+<div class="map-container">
+	<iframe width="300" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Status201%20Web%20Development&amp;key=AIzaSyCCGx7iveK21dme8OuLgX9Je7TUDDCw3_A"></iframe>
+</div> 
+
+the js section of the code:
+
+$('.map-container')
+	.click(function(){
+			$(this).find('iframe').addClass('clicked')})
+	.mouseleave(function(){
+			$(this).find('iframe').removeClass('clicked')});
+
+-->
+
+	
+	</body>
+</html>
