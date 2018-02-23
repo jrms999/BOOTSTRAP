@@ -1,6 +1,8 @@
 # bootstrap-navbar-multipage
 
 
+WHO are WE - intermediate template with map API
+
 https://bootstrapious.com/free-templates
 
 
