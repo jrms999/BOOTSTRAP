@@ -1,0 +1,163 @@
+html, body {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png");
+  background-size: 141px 142px;
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+}
+
+/*Header*/
+
+.jumbotron {
+  background-color: black;
+  margin-bottom: 0px;
+  padding: 30px;
+}
+
+.jumbotron img {
+  width: 180px;
+  height: 34px;
+  vertical-align: middle;
+}
+
+.jumbotron li {
+  display: inline-block;
+  color: white;
+  padding: 10px 15px;
+}
+
+a {
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 8px 20px;
+}
+
+a:hover {
+  background-color: #0393ff;
+  color: white;
+  border-color: #0393ff;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/*Main*/
+
+.main {
+  color: white;
+  text-align: center;
+}
+
+.main h1 {
+  padding: 40px 0;
+}
+
+form {
+  margin: 80px 0 120px;
+}
+
+#search-term {
+  background-color: transparent;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  font-size: 18px;
+  margin: 0 20px;
+}
+
+#search-term:hover {
+  border-bottom: 1px solid #0393ff;
+}
+
+#search-term:focus {
+  border-bottom: 1px solid #0393ff;
+  box-shadow: none;
+  outline: none;
+}
+
+.form-control {
+  border: none;
+}
+
+.btn-submit {
+  background-color: black;
+  border: 1px solid #0393ff;
+  color: #0393ff;
+  border-radius: 2px;
+  padding: 8px 20px;
+}
+
+.btn-submit:hover {
+  background-color: #0393ff;
+  color: white;
+  border-color: #0393ff;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/*Supporting*/
+
+.supporting {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.supporting h2 {
+  color: #0393ff;
+  margin-top: 100px;
+}
+
+.supporting p {
+  color: white;
+  margin-bottom: 45px;
+  font-size: 16px;
+}
+
+.supporting .thumbnail {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+/*Feature*/
+.feature {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 130px 0;
+}
+
+.feature h2 {
+  color: #0393ff;
+}
+
+.feature p {
+  font-size: 18px;
+}
+
+/*Footer*/
+.footer {
+  background: black;
+  padding: 50px 0;
+}
+
+.footer h3 {
+  color: white;
+  font-size: 18px;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer li {
+  color: #0393ff;
+  list-style-type: none;
+  
+}
